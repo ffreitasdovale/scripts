@@ -4,15 +4,15 @@ Import-Module AzureAd
 Connect-AzAccount
 Connect-AzureAd
 
-$SubPRD = "9d2cf6d3-7ae9-44a5-9135-8f55bf95620f"
-$SubHML = "2c2fc9b9-2465-4009-9853-6e0346dbb325"
-$SubDev = "3cf2693c-9229-4217-a154-2ad30e7ba05f"
-$SubDR = "bd890ae7-1508-4c6d-9678-4b94e462b815"
-$createdby =  "cloud.adm@clear.sale"
+$SubPRD = "Inserir ID"
+$SubHML = "Inserir ID"
+$SubDev = "Inserir ID"
+$SubDR = "Inserir ID"
+$createdby =  "created@dominio.com.br"
 $managedby = "azure portal"
 
 $RG = Read-host "Digite o nome do resource group sem o enviremonte EX: forcavinculo-lin"
-$keeper = Read-host "Digite o Keeper EX: integracao@clear.sale"
+$keeper = Read-host "Digite o Keeper EX: keeper@dominio.com.br"
 
 Write-host "1 - Subscription de Prod"
 Write-host "2 - Subscription de HML"
